@@ -13,3 +13,8 @@ Python, Pandas, SQL, Jupyter Notebook
 - Bookings (Parent)
 - Passengers (Child)
 - Payments (Transactions)
+
+
+## Disclaimer:
+This project uses entirely synthetic data and is intended for educational and portfolio purposes only. 
+It does not contain or reflect any proprietary or confidential information from past or current employers.
