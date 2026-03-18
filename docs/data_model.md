@@ -1,20 +1,22 @@
-Data Model
+## Data Model
 
 
 
-Bookings
+### Bookings
 
-Primary key: booking\_id
-
-
-
-Passengers
-
-Foreign key: booking\_id
+Primary key: booking_id
 
 
 
-Payments
+### Passengers
 
-Foreign key: booking\_id, passenger\_id
+Primary key: passenger_id
+Foreign key: booking_id
+
+
+
+### Payments
+
+Primary key: transaction_id
+Foreign key: booking_id, passenger_id
 
