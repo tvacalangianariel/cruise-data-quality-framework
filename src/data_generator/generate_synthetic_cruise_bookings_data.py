@@ -46,5 +46,13 @@ def generate_data(num_bookings=10000):
                 "payment_status": random.choice(["Paid", "Pending", "Failed"])
             })
 
+    #generate files
+    pd.DataFrame(bookings).to_csv("../../data/bookings.csv", index=False)
+    pd.DataFrame(passengers).to_csv("../../data/passengers.csv", index=False)
+    pd.DataFrame(payments).to_csv("../../data/payments.csv", index=False)
+    
+    print("Enterprise dataset generated.")
+        
+
 
 generate_data()
