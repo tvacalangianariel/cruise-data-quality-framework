@@ -1,0 +1,10 @@
+CRUISE DATA QUALITY REPORT
+===========================
+
+Total Number of Bookings: 10000
+
+Issues Detected:
+- Negative booking fares: 436
+- Overpaid bookings: 5900
+
+Data Quality Score: 96%
