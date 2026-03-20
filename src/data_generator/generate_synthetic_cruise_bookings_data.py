@@ -16,6 +16,7 @@ def generate_data(num_bookings=10000):
         sailing_date = booking_date + timedelta(days=random.randint(-10, 200))  # invalid cases
     
         occupants = random.randint(1, 4)
+        cabin_type = random.choice(["Interior", "Oceanview", "Balcony", "Suite"])
         total_fare = round(random.uniform(-500, 10000), 2)
     
         bookings.append({
@@ -24,6 +25,7 @@ def generate_data(num_bookings=10000):
             "booking_date": booking_date,
             "sailing_date": sailing_date,
             "occupants": occupants,
+            "cabin_type": cabin_type,
             "total_fare": total_fare
             })
     
